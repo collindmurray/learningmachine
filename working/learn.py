@@ -3,20 +3,20 @@ import pandas as pd
 import sklearn
 
 
-data = pd.read_csv("resources/primary_walk_vs_phones.csv")
+data = pd.read_csv("resources/primary_walks.csv")
 
-print(data.head(10))
-print("\n\n")
-print(data.tail(10))
-print(data.shape)
+# print(data.head(10))
+# print("\n\n")
+# print(data.tail(10))
+# print(data.shape)
 
 
 # sns.pairplot(data, x_vars = ['walkcontacts', 'phonecontacts'], y_vars = ['voted'])
 
-X = data[['walkcontacts', 'phonecontacts']]
+X = data[['attempted', 'canvassed']]
 Y = data[['voted']]
 
-print(X.head(5))
+# print(X.head(5))
 
 
 
