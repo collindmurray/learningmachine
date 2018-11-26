@@ -4,7 +4,11 @@ import pandas as pd
 # import seabornas sns
 import sklearn
 
-data = pd.read_csv("resources/primary_walk_vs_phones.csv")
+# Lily
+data = pd.read_csv("/Users/lilyirvin/Downloads/DFL/primary_walk_vs_phones.csv")
+
+# Collin
+# data = pd.read_csv("primary_walk_vs_phones.csv")
 
 # print(data.head(10))
 # print("\n\n")
