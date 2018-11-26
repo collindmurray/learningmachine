@@ -16,6 +16,10 @@ data = pd.read_csv("resources/primary_walk_vs_phones.csv")
 X = data[['walkcontacts', 'phonecontacts']]
 Y = data[['voted']]
 
+
+
+#comment to test
+
 # print(X.head(5))
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, random_state=1)
