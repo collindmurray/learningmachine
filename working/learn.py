@@ -11,6 +11,7 @@ import sklearn
 data = pd.read_csv("../resources/primary_walk_vs_phones.csv")
 
 # print(data.head(10))
+
 # print("\n\n")
 # print(data.tail(10))
 # print(data.shape)
